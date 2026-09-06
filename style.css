@@ -122,8 +122,8 @@ select:focus-visible {
   margin-top: 17px;
 }
 #board-scroll {
-  --rows: 16;
-  --cols: 16;
+  --rows: 15;
+  --cols: 15;
   --board-pad: 8px;
   width: min(100%, calc((min(72vh, 900px) - 3px - 2 * var(--board-pad)) * var(--cols) / var(--rows) + 2 * var(--board-pad) + 2px));
   margin-inline: auto;

@@ -2,9 +2,9 @@ import { validate, validateSeconds, facts, legal } from "./core.mjs";
 import { starPoints } from "./star-points.mjs";
 const $ = (id) => document.getElementById(id),
   KEY = "must5.browser.v1";
-let board = new Uint8Array(256),
-  n = 16,
-  cols = 16,
+let board = new Uint8Array(225),
+  n = 15,
+  cols = 15,
   edgePreset = "none",
   history = [],
   human = 1,
