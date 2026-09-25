@@ -1,5 +1,5 @@
 {
-  "version": "04fbc4d57176c0c87229",
+  "version": "91a67c6ebd96d527ddda",
   "assets": {
     "app.mjs": {
       "sha256": "5b28e49b8fc93d46e8b6231b970133a6182328ec497f77b45b6aee3e6dd313f4",
@@ -106,8 +106,8 @@
       "bytes": 357
     },
     "search.wasm": {
-      "sha256": "c5a4cd7a17fceaaf10053e1baf1081bd975f5a62bcd571b299a60faac5024ea7",
-      "bytes": 31685
+      "sha256": "637e2a5e5563e0917d6cf24b6d3b00051fb1d383d2e712f026c25623a8891daa",
+      "bytes": 34540
     },
     "star-points.mjs": {
       "sha256": "cdc89f70cad501ed79fcf03a471090aa7e1b5ad6a29d37c2b29c093dad3ed8a8",
