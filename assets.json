@@ -1,49 +1,33 @@
 {
-  "version": "524ed5d1199b38a531d3",
+  "version": "04fbc4d57176c0c87229",
   "assets": {
-    "index.html": {
-      "sha256": "cca52339f8935e447f97446521d15273bc96d52400460ee7777b0429bb90d24f",
-      "bytes": 6593
-    },
-    "style.css": {
-      "sha256": "012e929fb31e94ca03402e5229971389b3cca600e508657ac0d713a43571af54",
-      "bytes": 7202
-    },
     "app.mjs": {
-      "sha256": "c7b9ddf741e42aec25059ba027bc4f3f32eed7be53ce9068484ad2d00a1d7bf8",
-      "bytes": 17383
-    },
-    "core.mjs": {
-      "sha256": "c3bbb72f591dde5e6f3561689d5c8edc868795a88f8abcee620c1d1ff24c4fba",
-      "bytes": 18534
-    },
-    "geometry.mjs": {
-      "sha256": "ffa52127c5e90b48a35ff05cc3592315d9c23e27553a4c193352f66df6127ff8",
-      "bytes": 699
-    },
-    "star-points.mjs": {
-      "sha256": "cdc89f70cad501ed79fcf03a471090aa7e1b5ad6a29d37c2b29c093dad3ed8a8",
-      "bytes": 777
-    },
-    "search-budget.mjs": {
-      "sha256": "7c193f9af10af626a21d46719ea06e0cb1484eb38de7854004db9025b25fa353",
-      "bytes": 357
-    },
-    "engine-worker.mjs": {
-      "sha256": "1166524dc6d1b9b9d325ae0d86053e5ca36363fdca80f37b11e27094444d99fb",
-      "bytes": 20017
+      "sha256": "5b28e49b8fc93d46e8b6231b970133a6182328ec497f77b45b6aee3e6dd313f4",
+      "bytes": 18123
     },
     "app.webmanifest": {
       "sha256": "61d9fc425df1813c0ecb1c89c0b01c8bb95d7ed79d8699712c10aae9881ee4b0",
       "bytes": 331
     },
+    "core.mjs": {
+      "sha256": "c3bbb72f591dde5e6f3561689d5c8edc868795a88f8abcee620c1d1ff24c4fba",
+      "bytes": 18534
+    },
+    "engine-worker.mjs": {
+      "sha256": "6070303b7aef58f041f2e30d811f859bdca7a7478162d42f1f035df7e113e62c",
+      "bytes": 20537
+    },
+    "geometry.mjs": {
+      "sha256": "ffa52127c5e90b48a35ff05cc3592315d9c23e27553a4c193352f66df6127ff8",
+      "bytes": 699
+    },
     "icon.svg": {
       "sha256": "4238618e27a270210f96fc9317625eebccbcf55497bf5c04b519b92d40cacd0b",
       "bytes": 324
     },
-    "search.wasm": {
-      "sha256": "666e527d5ccec583ec14f4b8b0bab9c7ec74b9314912839150faa07e5ff8c01f",
-      "bytes": 31493
+    "index.html": {
+      "sha256": "cca52339f8935e447f97446521d15273bc96d52400460ee7777b0429bb90d24f",
+      "bytes": 6593
     },
     "models/global.onnx": {
       "sha256": "7f73c583701e04f3aeaaec6e8de61b11e2ae7c69424f79af39cef85f4803176c",
@@ -117,6 +101,22 @@
       "sha256": "609809690691d407e288171932bcd6bea3ac58277851190f930f801ed156bd6f",
       "bytes": 499500
     },
+    "search-budget.mjs": {
+      "sha256": "7c193f9af10af626a21d46719ea06e0cb1484eb38de7854004db9025b25fa353",
+      "bytes": 357
+    },
+    "search.wasm": {
+      "sha256": "c5a4cd7a17fceaaf10053e1baf1081bd975f5a62bcd571b299a60faac5024ea7",
+      "bytes": 31685
+    },
+    "star-points.mjs": {
+      "sha256": "cdc89f70cad501ed79fcf03a471090aa7e1b5ad6a29d37c2b29c093dad3ed8a8",
+      "bytes": 777
+    },
+    "style.css": {
+      "sha256": "012e929fb31e94ca03402e5229971389b3cca600e508657ac0d713a43571af54",
+      "bytes": 7202
+    },
     "vendor/ONNX-RUNTIME-LICENSE": {
       "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
       "bytes": 1073
@@ -140,17 +140,17 @@
   },
   "models": {
     "opponent": {
-      "checkpoint_path": "training_runs/unet_curriculum_v2/opponent.pt",
+      "checkpoint_path": "reproduction/inputs/unet_curriculum_v2/opponent.pt",
       "checkpoint_sha256": "127fcde6a6d7f70a21a1ce08c4a058f67e1ded3e509cc6be2f392e3da1a00c53",
       "trained": true
     },
     "play": {
-      "checkpoint_path": "training_runs/unet_curriculum_v2/play.pt",
+      "checkpoint_path": "reproduction/inputs/unet_curriculum_v2/play.pt",
       "checkpoint_sha256": "36018e0eb6abbe605636cfca3f0d3a0a48ad38b24d6c3dfea5a0f785c724f56a",
       "trained": true
     },
     "global": {
-      "checkpoint_path": "training_runs/global_policy_v4/global.pt",
+      "checkpoint_path": "reproduction/inputs/global_policy_v4/global.pt",
       "checkpoint_sha256": "064464d6f43476f6b20d7f8a0e9c5e1c028d43a4052e203ef6d36904c8ca66ee",
       "input_mode": "relative_rgb",
       "trained": true,
