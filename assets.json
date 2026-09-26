@@ -1,9 +1,9 @@
 {
-  "version": "8d45af599337102548e9",
+  "version": "0b6f71715bfea2b56fff",
   "assets": {
     "app.mjs": {
-      "sha256": "8e6b70aae1bee3abd2f8e64a7f7531589c171ea636e09100fbcf83815c3f98bb",
-      "bytes": 22231
+      "sha256": "dfbec10c33f26b67067079a48cdfefe1614995f5a6b68a2a4752f9ec44bea946",
+      "bytes": 24162
     },
     "app.webmanifest": {
       "sha256": "31a7b66d8fd808aa24e3c9e77ef5b605f6d9cb0a72e188e5f9b95ed8190825ab",
@@ -26,8 +26,8 @@
       "bytes": 324
     },
     "index.html": {
-      "sha256": "0018c98f4236aa3d119b1aa5ac897a9f8a5fa8da4e2a41efece3236187c9a37f",
-      "bytes": 11897
+      "sha256": "92ff54ce88122c93f91785289021fafcfbcec2a61e35c8baa0507b1659c817bc",
+      "bytes": 12821
     },
     "models/global.onnx": {
       "sha256": "7f73c583701e04f3aeaaec6e8de61b11e2ae7c69424f79af39cef85f4803176c",
@@ -114,8 +114,8 @@
       "bytes": 777
     },
     "style.css": {
-      "sha256": "7b0a0b8d062275070f12a80065bdb008d56ebd7792327a7bd60cc58ae2aa8625",
-      "bytes": 18801
+      "sha256": "ef9ddcd820a8ebb55d949353952dacb3297872c475ae426bbf92acab5168a610",
+      "bytes": 19496
     },
     "vendor/ONNX-RUNTIME-LICENSE": {
       "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
