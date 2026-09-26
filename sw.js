@@ -1,5 +1,5 @@
 /** Build substitutes a content-derived version and the complete local asset list. */
-const VERSION="91a67c6ebd96d527ddda";
+const VERSION="8d45af599337102548e9";
 const FILES=["./app.mjs", "./app.webmanifest", "./core.mjs", "./engine-worker.mjs", "./geometry.mjs", "./icon.svg", "./index.html", "./models/global.onnx", "./models/global5.onnx", "./models/global5x6.onnx", "./models/global5x7.onnx", "./models/global5x8.onnx", "./models/global6.onnx", "./models/global6x5.onnx", "./models/global6x7.onnx", "./models/global6x8.onnx", "./models/global7.onnx", "./models/global7x5.onnx", "./models/global7x6.onnx", "./models/global7x8.onnx", "./models/global8x5.onnx", "./models/global8x6.onnx", "./models/global8x7.onnx", "./models/opponent.onnx", "./models/play.onnx", "./search-budget.mjs", "./search.wasm", "./star-points.mjs", "./style.css", "./vendor/ONNX-RUNTIME-LICENSE", "./vendor/ONNX-RUNTIME-ThirdPartyNotices.txt", "./vendor/ort-wasm-simd-threaded.mjs", "./vendor/ort-wasm-simd-threaded.wasm", "./vendor/ort.wasm.min.mjs", "./assets.json"];
 const SCOPE=self.registration.scope;
 const PREFIX='must5-browser-'+encodeURIComponent(SCOPE)+'-';

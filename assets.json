@@ -1,13 +1,13 @@
 {
-  "version": "91a67c6ebd96d527ddda",
+  "version": "8d45af599337102548e9",
   "assets": {
     "app.mjs": {
-      "sha256": "5b28e49b8fc93d46e8b6231b970133a6182328ec497f77b45b6aee3e6dd313f4",
-      "bytes": 18123
+      "sha256": "8e6b70aae1bee3abd2f8e64a7f7531589c171ea636e09100fbcf83815c3f98bb",
+      "bytes": 22231
     },
     "app.webmanifest": {
-      "sha256": "61d9fc425df1813c0ecb1c89c0b01c8bb95d7ed79d8699712c10aae9881ee4b0",
-      "bytes": 331
+      "sha256": "31a7b66d8fd808aa24e3c9e77ef5b605f6d9cb0a72e188e5f9b95ed8190825ab",
+      "bytes": 324
     },
     "core.mjs": {
       "sha256": "c3bbb72f591dde5e6f3561689d5c8edc868795a88f8abcee620c1d1ff24c4fba",
@@ -26,8 +26,8 @@
       "bytes": 324
     },
     "index.html": {
-      "sha256": "cca52339f8935e447f97446521d15273bc96d52400460ee7777b0429bb90d24f",
-      "bytes": 6593
+      "sha256": "0018c98f4236aa3d119b1aa5ac897a9f8a5fa8da4e2a41efece3236187c9a37f",
+      "bytes": 11897
     },
     "models/global.onnx": {
       "sha256": "7f73c583701e04f3aeaaec6e8de61b11e2ae7c69424f79af39cef85f4803176c",
@@ -114,8 +114,8 @@
       "bytes": 777
     },
     "style.css": {
-      "sha256": "012e929fb31e94ca03402e5229971389b3cca600e508657ac0d713a43571af54",
-      "bytes": 7202
+      "sha256": "7b0a0b8d062275070f12a80065bdb008d56ebd7792327a7bd60cc58ae2aa8625",
+      "bytes": 18801
     },
     "vendor/ONNX-RUNTIME-LICENSE": {
       "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c",
